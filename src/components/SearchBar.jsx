@@ -13,7 +13,7 @@ function SearchBar({ onSearch }) {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="flex flex-row flex-wrap items-center items-center gap-2 justify-center">
+    <form onSubmit={handleSubmit} className="flex flex-row flex-wrap lg:mx-0 mx-2items-center gap-2 justify-center">
       <motion.input
         whileFocus={{ scale: 1.05 }}
         type="text"
